@@ -1,0 +1,85 @@
+<!Doctype html>
+<html>
+<head>
+ <link rel="stylesheet" href="metacube.css">
+    <title>meta parking</title>
+</head>
+<body>
+    <div class="navigation-bar">
+        <a class="active" href="#addEmployee">Add employee</a>
+        <a href="#addvehicle">Add vehicles</a>
+        <a href="#feedback">Give feedback</a>
+        <a href="#pricing">Pricing</a></div>
+        <h1>Employee Registration</h1>
+        <form id="employeeRegistrationForm">
+            <label>Employee name:</label>
+            <input id="empName" type="text" placeholder="employeename" required /></br>
+            <label>
+                <input  type="radio" name="Gender" />Male</br>
+            </label>
+            <label>
+                <input type="radio" name="Gender" />Female</br>
+            </label>
+            <label>
+                <input type="radio" name="Gender" />Other</br>
+            </label></br>
+            User Email:</br>
+            <input type="email" name="email" required /><br />
+            User Password:</br>
+            <input type="password" name="password" required><br />
+            Confirm Password:</br>
+            <input type="password" name="password" required><br />
+            Conatct Number:</br>
+            <input  type="number" name="phoneno" required><br />
+            <h5>Enter the city you are from</h5>
+            <select name="city">
+                <option value="jaipur">Jaipur</option>
+                <option value="kota">Kota</option>
+                <option>Udaipur</option>
+                <option>Ajmer</option>
+                <option>kanpur</option>
+                <option>other</option>
+            </select>
+            </br>
+            <input type="button" value="submit"></input>
+            <input type="reset" value="Reset" />
+        </form>
+        <h1>Vehicle Registration</h1>
+        <form id="vehicleRegistrationForm">
+            Vehicle Name:
+            <input id="vehicleName" type="text" placeholder="vehiclename" required />
+            </br>
+            <select name=vehiclename id=vehicleName>
+                <option id="car">car</option></input>
+                <option id="bik">bicycle</option>
+                <option id="mot">mototrcycle</option>
+            </select>
+            </br>
+            Vehicle Number:
+            <input type="number" name="vehicleno" required><br />
+            <input id="empId" type="id" placeholder="employeeid" required /></br>
+            <input id="text" type="textarea" placeholder="descriptionofvehicle" required /></br>
+            <input type="button" value="submit" />
+        </form>
+    <h1>Feedback Form</h1>
+    <form id="feedbackForm">
+        <label>Email:</label>
+        <input id="email" type="email" placeholder="enter email" required />
+        </br>
+        <label>Subject:</label>
+        <input  id="subject" type="text" placeholder="enter the subject of feedback" required />
+        </br>
+        <label>Message</label>
+        <input id="message" type="textarea" required />
+        </br>
+        <input type="button" value="send" />
+        <input type="button" value="reset" />
+    </form>
+    <h1>Pricing</h1>
+    <div>bicycle</div>
+    <div>$5 Daily</div>
+    <div>$100 Monthly</div>
+    <div>$500 Yearly</div></br>
+    <input type="button" value="purchase now" />
+    </body>
+    </html>
