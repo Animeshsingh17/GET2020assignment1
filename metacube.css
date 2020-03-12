@@ -1,0 +1,25 @@
+.navigation-bar{
+    text-align: center;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    font-family: verdana;
+    font-size: 40px;
+}
+body{
+    padding: 50px;
+    margin: auto;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    text-align: center;
+}
+h1{
+    border-style: dotted solid dashed solid;
+    border-color:  #FF3CAC; 
+    font-family: verdana;
+    font-size: 20px;
+}
+*{
+    text-align: center;
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
